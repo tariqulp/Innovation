@@ -5,7 +5,7 @@ body {
 }
 
 .bg {
-    background: url("images/Path\ 35288.png") no-repeat center bottom, url("images/Path\ 35289.png")no-repeat center bottom;
+    background: url("image/Path\ 35288.png") no-repeat center bottom, url("image/Path\ 35289.png")no-repeat center bottom;
     background-color: #c0e8e9;
     position: relative;
     min-height: 100vh;
