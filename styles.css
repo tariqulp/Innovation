@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    ;
+}
+
+.bg {
+    background: url("/Images/Path\ 35288.png") no-repeat center bottom, url("/Images/Path\ 35289.png")no-repeat center bottom;
+    background-color: #c0e8e9;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.logo img {
+    border-radius: 12px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 350px;
+    background: none;
+    border: none;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: calc(100% - 28px);
+    padding: 16px;
+    border: 2px solid #ff9b3d;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-group .icon {
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    color: #ff9b3d;
+    cursor: pointer;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.remember-forgot label {
+    margin: 0;
+}
+
+.forgot-link {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #ff9b3d;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #ffaa4e;
+}
